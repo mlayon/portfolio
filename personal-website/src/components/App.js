@@ -1,12 +1,11 @@
 import React from 'react';
+import Loading from "./Loading.js"
 import '../stylings/App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      Hello from Mikhaela
-    </div>
-  );
+    <Loading/>
+  )
 }
 
 export default App;
