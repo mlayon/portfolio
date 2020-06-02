@@ -22,11 +22,36 @@ Here are a few technologies I've been working with recently:
 - HTML & CSS/SCSS
 - Databases (MySQL & Firebase)
 
+Skills:
+
+LANGUAGES
+JavaScript (ES6)
+HTML & CSS/Sass
+SQL
+C
+C++
+
+TOOLS
+Bash
+Git & Github
+Chrome DevTools
+Visual Studio Code
+MySQL
+
 Work:
 Featured Projects
 - DianthUS
+A web app aimed to bring down communication barriers between educators, parents and children with special needs by
+streamlining all communications into one platform.
+
 - Icopico
+A web based game aimed to encourage people to integrate ecologically restorative habits
+in their daily routine. This project was showcased during the Ecocity World Summit 2019 hosted in Vancouver.
+
 - MusiQR
+A website aimed to improve patient-caregive interation by making passive music therapy more accessible to everyone.
+This project was created during the Hackathon for Individuals with Complex Health Needs and was awarded 1st place out
+of 12 projects.
 
 Other projects:
 TBA
@@ -37,7 +62,7 @@ Hello, kumusta!
 
 I think this is a beginning of a good thing, and I'd love to hear more from you.
 
-Tell me your favorite memes, quiz me on trivias about The Office, or suggest animes and shows
+Tell me your favorite memes, quiz me on trivias about The Office, or suggest shows and movies
 for me to watch.
 
-All kidding aside, feel free to email me, or say hi below.
+I'm currently looking for new opportunities so feel free to email me, or just say hi below!
