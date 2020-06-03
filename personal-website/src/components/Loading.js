@@ -10,8 +10,8 @@ import * as doneData from "../json/doneloading.json";
 const loadingOptions = {
   loop: true,
   autoplay: true,
-   animationData: typingData.default,
-//   animationData: laptopData.default,
+  animationData: typingData.default,
+  animationData: laptopData.default,
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice",
   },
@@ -45,7 +45,7 @@ export default class Loading extends React.Component {
             this.setState({ done: true });
           }, 1000);
         });
-    }, 3600);
+    }, 2400);
   }
 
   render() {
