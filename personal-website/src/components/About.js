@@ -21,6 +21,7 @@ export default class About extends Component {
             time at BCIT, I've been involved in the BCIT Women in Computing
             club, lending a hand on organizing events aimed to empower 
             women and other minorities in the tech field.
+            
           </p>
         </div>
       </section>

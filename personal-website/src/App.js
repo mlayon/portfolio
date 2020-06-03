@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Loading from "./components/Loading.js";
+
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Work from "./components/Work";
@@ -10,6 +12,7 @@ const App = () => {
   return (
     // <Loading/>
     <div className="App">
+      <Navbar/>
       <Hero/>
       <About/>
       <Work/>
