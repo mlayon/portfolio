@@ -1,7 +1,7 @@
 :root {
   --off-white: #fafafa;
 }
-.nav {
+#nav {
   background-color: var(--off-white);
   position: sticky;
   top: 0px;
@@ -9,6 +9,17 @@
   height: 80px;
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.active {
+  visibility: visible;
+  transition: all 0.5s;
+}
+
+.hidden {
+  visibility: hidden;
+  transition: all 0.5s;
+  transform: translateY(-100%);
 }
 
 .nav-logo {
@@ -20,7 +31,7 @@
   cursor: pointer;
 }
 
-.nav .nav-content {
+#nav .nav-content {
   max-width: 900px;
   padding: 0rem 3rem;
   margin: 0 auto;

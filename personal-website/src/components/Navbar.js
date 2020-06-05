@@ -3,13 +3,40 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import logo from "../img/m-logo.png";
 
 export default class Navbar extends Component {
+  constructor() {
+    super();
+    this.state = {
+      show: true,
+      scrollPos: 0
+    };
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
   scrollToTop = () => {
     scroll.scrollToTop();
   };
 
+  handleScroll = () => {
+    this.setState({
+      scrollPos: document.body.getBoundingClientRect().top,
+      show: document.body.getBoundingClientRect().top > this.state.scrollPos
+    });
+  };
+
   render() {
+
+    console.log(this.state);
     return (
-      <nav className="nav" id="navbar">
+      
+      <nav id="nav" className={this.state.show ? "active" : "hidden"}>
+        
         <div className="nav-content">
           <img
             src={logo}
