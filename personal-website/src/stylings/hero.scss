@@ -1,0 +1,39 @@
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    justify-content: center;
+
+    main {
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        padding: 3.25rem 1.5rem 1rem;
+        text-align: center;
+        
+        .hero-wrapper {
+            flex: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        > .hero-name {
+            font-size: 4rem;
+            font-weight: bold;
+            line-height: 4rem;
+            padding-bottom: 1rem;
+        }
+
+        > .hero-subtitle {
+            font-size: 1.375rem;
+            margin: 1.5rem 0;
+            font-weight: 300;
+    
+          }
+    }
+}

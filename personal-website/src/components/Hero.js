@@ -1,16 +1,16 @@
 import React, { Component } from "react";
+import "../stylings/hero.scss";
 
 export default class Hero extends Component {
   render() {
     return (
-      <section id="hero">
-        <div className="content">
-          <h2>Hero</h2>
-          <p>
-            Hello I'm Mikhaela, I'm a software development student based in
+      <section className="hero">
+        <div className="hero-wrapper">
+            <div className="hero-name">Hello, I'm Mikhaela!</div>
+            <div className="hero-subtitle">I'm a software developer based in
             Vancouver, BC specializing in building websites, applications and
             everything in between.
-          </p>
+            </div>
         </div>
       </section>
     );

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import logo from "../img/m-logo.png";
+import "../stylings/navbar.scss";
 
 export default class Navbar extends Component {
   constructor() {

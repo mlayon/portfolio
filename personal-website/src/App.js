@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Loading from "./components/Loading.js";
+import React from "react";
+// import Loading from "./components/Loading.js";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -9,16 +9,18 @@ import Contact from "./components/Contact";
 import "./stylings/App.css";
 
 const App = () => {
-  return (
-    // <Loading/>
-    <div className="App">
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Work/>
-      <Contact/>
-    </div>
-  );
-};
+
+    return (
+      // <Loading/>
+      <div className="App">
+        <Navbar/>
+        <Hero/>
+        <About/>
+        <Work/>
+        <Contact/>
+      </div>
+    )
+  }
+
 
 export default App;

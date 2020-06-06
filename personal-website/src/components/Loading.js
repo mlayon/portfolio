@@ -1,8 +1,6 @@
 import React from "react";
 import FadeIn from "react-fade-in";
 import Lottie from "react-lottie";
-import ReactLoading from "react-loading";
-import "bootstrap/dist/css/bootstrap.css";
 import * as laptopData from "../json/laptoploading.json";
 import * as typingData from "../json/girltyping.json";
 import * as doneData from "../json/doneloading.json";
