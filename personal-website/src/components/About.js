@@ -10,7 +10,7 @@ export default class About extends Component {
             <p>
               Hi! It's great to see you today. I'm Mikhaela - a software
               developer based in Vancouver, BC.
-            </p>
+            </p>  
 
             <p>
               As a clumsy person who enjoys creating things, software
