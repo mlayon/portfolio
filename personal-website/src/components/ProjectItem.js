@@ -1,4 +1,5 @@
 import React from "react";
+import "../stylings/projectitem.scss";
 
 const ProjectItem = (props) => {
   if (props.render) {
