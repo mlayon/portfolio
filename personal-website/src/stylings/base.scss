@@ -1,0 +1,25 @@
+$beige: #EBEBD3;
+$indigo: #083D77;
+$orange-yellow: #F4D35E;
+$sandy-brown: #EE964B;
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+
+@font-face {
+  font-family: 'Calibre';
+  src:url('../fonts/Calibre/Calibre-Light.ttf') format('ttf');
+  src:url('../fonts/Calibre/Calibre-Light.woff') format('woff');
+  src:url('../fonts/Calibre/Calibre-Light.woff2') format('woff2');
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: $indigo;
+  color: $beige;
+  font-family: 'Balsamiq Sans', cursive;
+
+}

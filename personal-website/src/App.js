@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import "./stylings/App.css";
+import "./stylings/base.scss";
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';

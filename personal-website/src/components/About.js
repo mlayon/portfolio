@@ -20,8 +20,8 @@ export default class About extends Component {
             </p>
 
             <p>
-              Currently, I'm taking BCIT's Computer Systems Technology diploma
-              program. During my time at BCIT, I've been involved in the BCIT
+              Currently, I'm taking the Computer Systems Technology diploma
+              program at BCIT. During my time there, I've been heavily involved in the BCIT
               Women in Computing club, lending a hand on organizing events aimed
               to empower women and other minorities in the tech field.
             </p>
