@@ -1,2 +1,2 @@
-# mikhaela-site
-Personal website/portfolio for 2020
+# portfolio
+Personal website/portfolio written in React. Work in progress!
